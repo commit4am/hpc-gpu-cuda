@@ -1,0 +1,4 @@
+#!/bin/bash
+#SBATCH -p gpu_short
+
+srun ./vector-add-streams

@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH -t 5:00
+#SBATCH -n 1 
+#SBATCH -p gpu_short 
+
+srun ./convolution
